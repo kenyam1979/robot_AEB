@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'test = robot_aeb.test:main',
+            'test2 = robot_aeb.test2:main',
         ],
     },
 )
